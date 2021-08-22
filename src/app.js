@@ -4,8 +4,6 @@ import UserService from "./services/userService.js"
 import User from "./models/user.js"
 import SellingService from "./services/sellingService.js"
 
-
-
 //game
 let game1 = new Game(1, "GTA", 101, 15)
 let game2 = new Game(2, "Lol", 102, 15)
