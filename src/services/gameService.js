@@ -18,7 +18,7 @@ export default class GameService{
             if(game.id === this.games[i].id){
             this.games.splice(i, 1)
             }
-        }
+        }  
         
         console.log(game.name+" isimli oyun silindi.")
     }
