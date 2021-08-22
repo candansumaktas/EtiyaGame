@@ -14,15 +14,13 @@ export default class UserService{
     }
 
     remove(user) {
-
         for(let i=0; i<this.users.length;i++){  
               
             if(user.id === this.users[i].id){
             this.users.splice(i, 1)
-
             }
         }
+        
         console.log(user.name + " isimli oyuncu kaydı silindi.")    
       }
-
 }
