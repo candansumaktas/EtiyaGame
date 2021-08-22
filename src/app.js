@@ -46,5 +46,3 @@ sellingService.sell(user2,game2)
 sellingService.sell(user3,game3)
 
 console.log(sellingService.listSelling())
-
-
