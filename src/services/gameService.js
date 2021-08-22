@@ -1,12 +1,9 @@
 export default class GameService{
-
     constructor(){
-        this.games = []
-        
+        this.games = []      
     }
 
     add(game){
-
         if(typeof(game)=="object"){
             this.games.push(game)            
         }
@@ -17,7 +14,6 @@ export default class GameService{
     }
     
     remove(game) {
-
         for(let i=0; i<this.games.length;i++){
             if(game.id === this.games[i].id){
             this.games.splice(i, 1)
@@ -27,4 +23,3 @@ export default class GameService{
         console.log(game.name+" isimli oyun silindi.")
     }
 }
-
